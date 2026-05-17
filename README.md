@@ -1,0 +1,160 @@
+<div align="center">
+
+# 🔍 Username Checker
+### ꧁ঔৣ☬ Muhannad Daher ☬ঔৣ꧂
+
+أداة احترافية للبحث عن توفر اليوزرات على وسائل التواصل الاجتماعي ومنصات الذكاء الاصطناعي
+
+</div>
+
+---
+
+## ✨ المميزات
+
+- 🌐 فحص **33 منصة** دفعة واحدة
+- 🤖 توليد يوزرات تلقائياً بثلاث طرق
+- 🔒 دعم **Tor** لتجاوز الحظر
+- ⛔ إمكانية إيقاف البحث في أي وقت
+- 💾 حفظ النتائج في ملف تلقائياً
+- 📋 قراءة يوزرات من ملف txt
+- 🌐 فحص يدوي أو تلقائي على كل المنصات دفعة واحدة
+- 🔤 دعم كامل للغة العربية في Terminal
+
+---
+
+## 📱 المنصات المدعومة
+
+| الفئة | المنصات |
+|-------|---------|
+| 📱 التواصل الاجتماعي | Facebook, Instagram, Twitter/X, TikTok, YouTube, Snapchat, Pinterest, LinkedIn, Reddit, Tumblr, Quora, Medium |
+| 💻 تقنية وترفيه | GitHub, Steam, DeviantArt, Twitch |
+| 🎥 فيديو وبث | Vimeo, Dailymotion |
+| 🎵 موسيقى وصور | SoundCloud, Spotify, Flickr |
+| ✈️ تواصل | Telegram |
+| 🤖 توليد صور AI | Civitai, NightCafe, Leonardo AI, Tensor.Art, DreamStudio, Dreamlike.art, Dreamstime, Lexica.art, Arthub.ai, Krea.ai, Playground AI |
+
+---
+
+## 🚀 طريقة التثبيت والتشغيل
+
+---
+
+### 📱 Android — Termux
+
+#### الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)
+```bash
+pkg install python tor -y
+pip install requests pysocks arabic-reshaper python-bidi
+```
+
+#### الخطوة 2 — تثبيت الخط العربي (مرة واحدة فقط)
+```bash
+pkg install fontconfig -y
+mkdir -p ~/.termux/fonts
+cd ~/.termux/fonts
+curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o font.ttf
+termux-reload-settings
+```
+
+> ⚠️ أغلق Termux تماماً وافتحه من جديد بعد تثبيت الخط
+
+#### الخطوة 3 — تشغيل الأداة
+```bash
+tor &
+cd /sdcard/Download
+python mud.py
+```
+
+#### أو كل شيء في أمر واحد (بعد تثبيت الخط)
+```bash
+pkg install python tor -y && pip install requests pysocks arabic-reshaper python-bidi && tor & sleep 5 && cd /sdcard/Download && python mud.py
+```
+
+---
+
+### 🐉 Kali Linux
+
+#### الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)
+```bash
+sudo apt install python3 tor -y
+pip3 install requests pysocks arabic-reshaper python-bidi
+```
+
+#### الخطوة 2 — تثبيت الخط العربي (مرة واحدة فقط)
+```bash
+sudo apt install fonts-noto-core -y
+```
+
+#### الخطوة 3 — ضع ملف mud.py في مجلد Downloads ثم شغّله
+```bash
+sudo service tor start
+cd ~/Downloads
+python3 mud.py
+```
+
+#### أو كل شيء في أمر واحد
+```bash
+sudo apt install python3 tor fonts-noto-core -y && pip3 install requests pysocks arabic-reshaper python-bidi && sudo service tor start && sleep 5 && cd ~/Downloads && python3 mud.py
+```
+
+---
+
+## 📖 طريقة الاستخدام
+
+```
+1. اختر المنصة برقمها من القائمة
+2. اختر الوضع:
+   • ✍️  يدوي  — أدخل يوزر أو عدة يوزرات
+   • 🤖 تلقائي — الأداة تولد وتفحص تلقائياً
+3. اختر 0 للفحص على كل المنصات:
+   • يدوي  — أدخل يوزر واحد يُفحص على 33 منصة
+   • تلقائي — توليد يوزرات وفحص كل واحد على 33 منصة
+4. اختر 98 لإعدادات Tor
+```
+
+---
+
+## 🔒 إعدادات Tor
+
+الأداة تكشف Tor تلقائياً عند التشغيل.
+لتفعيله يدوياً اختر **98** من القائمة.
+
+| الحالة | المعنى |
+|--------|--------|
+| 🟢 مفعّل | الطلبات مشفرة وتجاوز الحظر مفعّل |
+| 🔴 معطّل | الاتصال المباشر |
+
+---
+
+## ⌨️ اختصارات مهمة
+
+| الاختصار | الوظيفة |
+|----------|---------|
+| `Volume↓ + C` (Termux) / `Ctrl+C` (Kali) | إيقاف البحث فوراً |
+| `0` | فحص على كل المنصات |
+| `98` | إعدادات Tor |
+| `-1` | خروج |
+
+---
+
+## 📂 حفظ النتائج
+
+**Termux:**
+```
+/sdcard/Download/available_[اسم_المنصة].txt
+/sdcard/Download/available_[اليوزر].txt
+```
+
+**Kali Linux:**
+```
+~/Downloads/available_[اسم_المنصة].txt
+~/Downloads/available_[اليوزر].txt
+```
+
+---
+
+<div align="center">
+
+صُنع بـ 💖 بواسطة **꧁ঔৣ☬ Muhannad Daher ☬ঔৣ꧂**
+
+</div>
