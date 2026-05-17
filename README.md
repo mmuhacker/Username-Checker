@@ -153,6 +153,6 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 
 <div align="center">
 
-صُنع بـ 💖 بواسطة **꧁ঔৣ☬ Muhannad Daher ☬ঔৣ꧂**
+صُنع بواسطة **꧁ঔৣ☬ Muhannad Daher ☬ঔৣ꧂**
 
 </div>
