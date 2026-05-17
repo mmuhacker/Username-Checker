@@ -11,7 +11,7 @@
 
 ## ✨ المميزات
 
-- 🌐 فحص **33 منصة** دفعة واحدة
+- 🌐 فحص **32 منصة** دفعة واحدة
 - 🤖 توليد يوزرات تلقائياً بثلاث طرق
 - 🔒 دعم **Tor** لتجاوز الحظر
 - ⛔ إمكانية إيقاف البحث في أي وقت
@@ -26,7 +26,7 @@
 
 | الفئة | المنصات |
 |-------|---------|
-| 📱 التواصل الاجتماعي | Facebook, Instagram, Twitter/X, TikTok, YouTube, Snapchat, Pinterest, LinkedIn, Reddit, Tumblr, Quora, Medium |
+| 📱 التواصل الاجتماعي | Facebook, Instagram, Twitter/X, YouTube, Snapchat, Pinterest, LinkedIn, Reddit, Tumblr, Quora, Medium |
 | 💻 تقنية وترفيه | GitHub, Steam, DeviantArt, Twitch |
 | 🎥 فيديو وبث | Vimeo, Dailymotion |
 | 🎵 موسيقى وصور | SoundCloud, Spotify, Flickr |
