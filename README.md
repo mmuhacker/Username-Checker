@@ -15,6 +15,7 @@
 - [طريقة التثبيت والتشغيل](#-طريقة-التثبيت-والتشغيل)
 - [Android — Termux](https://github.com/mmuhacker/Username-Checker/blob/main/README.md#-android--termux)
 - [Kali Linux](#-Kali-Linux)
+- [طريقة الإستخدام](#-طريقة-الإستخدام)
 
 ## ✨ المميزات
 
@@ -104,7 +105,7 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 
 ---
 
-## 📖 طريقة الاستخدام
+## 📖 طريقة الإستخدام
 
 ```
 1. اختر المنصة برقمها من القائمة
