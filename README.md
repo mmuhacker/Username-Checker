@@ -12,6 +12,8 @@
 ## المحتويات:
 - [المميزات](#-المميزات)
 - [المنصات المدعومة](#-المنصات-المدعومة)
+- [طريقة التثبيت والتشغيل](#-طريقة-التثبيت-والتشغيل)
+- [Android — Termux](#-Android-—-Termux)
 
 ## ✨ المميزات
 
@@ -43,9 +45,9 @@
 
 ---
 
-### 📱 Android — Termux
+## 📱 Android — Termux
 
-#### الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)
+**الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)**
 ```bash
 pkg install python tor git curl fontconfig -y
 pip install requests pysocks arabic-reshaper python-bidi
