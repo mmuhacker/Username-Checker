@@ -16,6 +16,7 @@
 - [Android — Termux](https://github.com/mmuhacker/Username-Checker/blob/main/README.md#-android--termux)
 - [Kali Linux](#-Kali-Linux)
 - [طريقة الإستخدام](#-طريقة-الإستخدام)
+- [إعدادات Tor](#-إعدادات-Tor)
 
 ## ✨ المميزات
 
