@@ -13,7 +13,8 @@
 - [المميزات](#-المميزات)
 - [المنصات المدعومة](#-المنصات-المدعومة)
 - [طريقة التثبيت والتشغيل](#-طريقة-التثبيت-والتشغيل)
-- [Android — Termux](#-Android-—-Termux)
+- [Android — Termux](https://github.com/mmuhacker/Username-Checker/blob/main/README.md#-android--termux)
+- 
 
 ## ✨ المميزات
 
@@ -53,14 +54,14 @@ pkg install python tor git curl fontconfig -y
 pip install requests pysocks arabic-reshaper python-bidi
 ```
 
-#### الخطوة 2 — تثبيت الخط العربي (مرة واحدة فقط)
+**الخطوة 2 — تثبيت الخط العربي (مرة واحدة فقط)**
 ```bash
 mkdir -p ~/.termux/fonts && cd ~/.termux/fonts && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o font.ttf && termux-reload-settings
 ```
 
 > ⚠️ أغلق Termux تماماً وافتحه من جديد بعد تثبيت الخط
 
-#### الخطوة 3 — تنزيل الأداة وتشغيلها
+**الخطوة 3 — تنزيل الأداة وتشغيلها**
 ```bash
 curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o /sdcard/Download/mud.py
 tor &
@@ -69,7 +70,7 @@ cd /sdcard/Download
 python mud.py
 ```
 
-#### أو كل شيء في أمر واحد (بعد تثبيت الخط)
+**أو كل شيء في أمر واحد (بعد تثبيت الخط)**
 ```bash
 pkg install python tor git curl fontconfig -y && pip install requests pysocks arabic-reshaper python-bidi && curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o /sdcard/Download/mud.py && tor & sleep 5 && cd /sdcard/Download && python mud.py
 ```
@@ -78,25 +79,25 @@ pkg install python tor git curl fontconfig -y && pip install requests pysocks ar
 
 ### 🐉 Kali Linux
 
-#### الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)
+**الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)**
 ```bash
 sudo apt install python3 tor curl fonts-noto-core -y
 pip3 install requests pysocks arabic-reshaper python-bidi
 ```
 
-#### الخطوة 2 — تنزيل الأداة
+**الخطوة 2 — تنزيل الأداة**
 ```bash
 curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/Downloads/mud.py
 ```
 
-#### الخطوة 3 — تشغيل الأداة
+**الخطوة 3 — تشغيل الأداة**
 ```bash
 sudo service tor start
 cd ~/Downloads
 python3 mud.py
 ```
 
-#### أو كل شيء في أمر واحد
+**أو كل شيء في أمر واحد**
 ```bash
 sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests pysocks arabic-reshaper python-bidi && curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/Downloads/mud.py && sudo service tor start && sleep 5 && cd ~/Downloads && python3 mud.py
 ```
@@ -159,6 +160,11 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 
 <div align="center">
 
-صُنع بواسطة **꧁ঔৣ☬ Muhannad Daher ☬ঔৣ꧂**
+## 👨‍💻 المطور
 
+**Muhannad Daher**
+
+[![GitHub](https://img.shields.io/badge/GitHub-mmuhacker-black?style=for-the-badge&logo=github)](https://github.com/mmuhacker)
+[![Contact Us](https://img.shields.io/badge/Contact_Us-black?style=for-the-badge&logo=gmail&logoColor=white)](mailto:madarik.ai.info@gmail.com)
+---
 </div>
