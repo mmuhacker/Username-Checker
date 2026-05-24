@@ -174,4 +174,4 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 [![Contact Us](https://img.shields.io/badge/Contact_Us-black?style=for-the-badge&logo=gmail&logoColor=white)](mailto:madarik.ai.info@gmail.com)
 
 </div>
----
+
