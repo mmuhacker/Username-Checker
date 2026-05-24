@@ -14,7 +14,7 @@
 - [المنصات المدعومة](#-المنصات-المدعومة)
 - [طريقة التثبيت والتشغيل](#-طريقة-التثبيت-والتشغيل)
 - [Android — Termux](https://github.com/mmuhacker/Username-Checker/blob/main/README.md#-android--termux)
-- 
+- [Kali Linux](#-Kali-Linux)
 
 ## ✨ المميزات
 
