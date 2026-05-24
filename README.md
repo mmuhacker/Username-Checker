@@ -19,6 +19,8 @@
 - [إعدادات Tor](#-إعدادات-Tor)
 - [إختصارات مهمة](https://github.com/mmuhacker/Username-Checker/blob/main/README.md#%EF%B8%8F-%D8%A5%D8%AE%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%87%D9%85%D8%A9)
 - [حفظ النتائج](#-حفظ-النتائج)
+- [المطور](#-المطور)
+---
 
 ## ✨ المميزات
 
