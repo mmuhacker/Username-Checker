@@ -11,23 +11,14 @@
 ![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
 
 
-
-
 ![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
-
-![Platform](https://www.kali.org/docs/policy/trademark/kali-nethunter-dragon-tm.png-green?style=for-the-badge&logo=Kali_Linux)
-
-
-
 
 
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
 
 
 
-
 ![License](https://img.shields.io/badge/License-MIT_License-red?style=for-the-badge)
-
 
 
 
