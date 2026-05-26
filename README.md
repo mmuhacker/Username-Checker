@@ -6,6 +6,30 @@
 
 أداة احترافية للبحث عن توفر اليوزرات على وسائل التواصل الاجتماعي ومنصات الذكاء الاصطناعي
 
+---
+
+![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
+
+
+
+
+![Platform](https://img.shields.io/badge/Platform-Kali_Linux_&_Android-green?style=for-the-badge&logo=android)
+
+
+
+
+![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
+
+
+
+
+![License](https://img.shields.io/badge/License-MIT_License-red?style=for-the-badge)
+
+
+
+
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+
 </div>
 
 ---
