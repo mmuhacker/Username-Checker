@@ -15,6 +15,8 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Kali_Linux_&_Android-green?style=for-the-badge&logo=android)
 
+![Platform](https://img.shields.io/badge/Platform-Kali_Linux-green?style=for-the-badge&logo=Kali)
+
 
 
 
