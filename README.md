@@ -15,7 +15,8 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
 
-![Platform](https://img.shields.io/badge/Platform-Kali_Linux-green?style=for-the-badge&logo=Kali_Linux)
+![Platform](https://www.kali.org/docs/policy/trademark/kali-nethunter-dragon-tm.png-green?style=for-the-badge&logo=Kali_Linux)
+
 
 
 
