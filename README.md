@@ -10,7 +10,8 @@
 
 ![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
 
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Linux-green?style=for-the-badge&logo=android_http://www.w3.org/2000/svg)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Linux-green?style=for-the-badge&logo=android)20%![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Linux-green?style=for-the-badge&logo=linux)
+
 
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
 
