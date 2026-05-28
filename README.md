@@ -9,35 +9,27 @@
 ---
 
 ![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
-
-
-![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
-
-
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Linux-green?style=for-the-badge&logo=android)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
-
-
-
 ![License](https://img.shields.io/badge/License-MIT_License-red?style=for-the-badge)
-
-
-
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 </div>
 
 ---
+
 **المحتويات:**
 - [المميزات](#-المميزات)
 - [المنصات المدعومة](#-المنصات-المدعومة)
 - [طريقة التثبيت والتشغيل](#-طريقة-التثبيت-والتشغيل)
-- [Android — Termux](https://github.com/mmuhacker/Username-Checker/blob/main/README.md#-android--termux)
-- [Kali Linux](#-Kali-Linux)
-- [طريقة الإستخدام](#-طريقة-الإستخدام)
-- [إعدادات Tor](#-إعدادات-Tor)
-- [إختصارات مهمة](https://github.com/mmuhacker/Username-Checker/blob/main/README.md#%EF%B8%8F-%D8%A5%D8%AE%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%87%D9%85%D8%A9)
+- [Android — Termux](#-android--termux)
+- [Kali Linux](#-kali-linux)
+- [طريقة الاستخدام](#-طريقة-الاستخدام)
+- [إعدادات Tor](#-إعدادات-tor)
+- [اختصارات مهمة](#%EF%B8%8F-اختصارات-مهمة)
 - [حفظ النتائج](#-حفظ-النتائج)
-- [المطور](https://github.com/mmuhacker/Username-Checker/blob/main/README.md#%E2%80%8D-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B1)
+- [المطور](#%E2%80%8D-المطور)
+
 ---
 
 ## ✨ المميزات
@@ -46,7 +38,7 @@
 - 🤖 توليد يوزرات تلقائياً بثلاث طرق
 - 🔒 دعم **Tor** لتجاوز الحظر
 - ⛔ إمكانية إيقاف البحث في أي وقت
-- 💾 حفظ النتائج في ملف تلقائياً
+- 💾 حفظ النتائج في مجلد يختاره المستخدم
 - 📋 قراءة يوزرات من ملف txt
 - 🌐 فحص يدوي أو تلقائي على كل المنصات دفعة واحدة
 - 🔤 دعم كامل للغة العربية في Terminal
@@ -74,34 +66,35 @@
 
 **الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)**
 ```bash
-pkg install python tor git curl fontconfig -y
-pip install requests pysocks arabic-reshaper python-bidi
+pkg install python tor curl fontconfig rust -y
+pip install requests pysocks arabic-reshaper
+pip install python-bidi==0.4.2
 ```
 
 **الخطوة 2 — تثبيت الخط العربي (مرة واحدة فقط)**
 ```bash
-mkdir -p ~/.termux/fonts && cd ~/.termux/fonts && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o font.ttf && termux-reload-settings
+curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf
+termux-reload-settings
 ```
 
 > ⚠️ أغلق Termux تماماً وافتحه من جديد بعد تثبيت الخط
 
 **الخطوة 3 — تنزيل الأداة وتشغيلها**
 ```bash
-curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o /sdcard/Download/mud.py
+curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/mud.py
 tor &
 sleep 5
-cd /sdcard/Download
-python mud.py
+python ~/mud.py
 ```
 
 **أو كل شيء في أمر واحد (بعد تثبيت الخط)**
 ```bash
-pkg install python tor git curl fontconfig -y && pip install requests pysocks arabic-reshaper python-bidi && curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o /sdcard/Download/mud.py && tor & sleep 5 && cd /sdcard/Download && python mud.py
+pkg install python tor curl fontconfig rust -y && pip install requests pysocks arabic-reshaper && pip install python-bidi==0.4.2 && curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/mud.py && tor & sleep 5 && python ~/mud.py
 ```
 
 ---
 
-### 🐉 Kali Linux
+## 🐉 Kali Linux
 
 **الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)**
 ```bash
@@ -111,24 +104,24 @@ pip3 install requests pysocks arabic-reshaper python-bidi
 
 **الخطوة 2 — تنزيل الأداة**
 ```bash
-curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/Downloads/mud.py
+curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/mud.py
 ```
 
 **الخطوة 3 — تشغيل الأداة**
 ```bash
 sudo service tor start
-cd ~/Downloads
-python3 mud.py
+sleep 5
+python3 ~/mud.py
 ```
 
 **أو كل شيء في أمر واحد**
 ```bash
-sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests pysocks arabic-reshaper python-bidi && curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/Downloads/mud.py && sudo service tor start && sleep 5 && cd ~/Downloads && python3 mud.py
+sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests pysocks arabic-reshaper python-bidi && curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/mud.py && sudo service tor start && sleep 5 && python3 ~/mud.py
 ```
 
 ---
 
-## 📖 طريقة الإستخدام
+## 📖 طريقة الاستخدام
 
 ```
 1. اختر المنصة برقمها من القائمة
@@ -136,8 +129,8 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
    • ✍️  يدوي  — أدخل يوزر أو عدة يوزرات
    • 🤖 تلقائي — الأداة تولد وتفحص تلقائياً
 3. اختر 0 للفحص على كل المنصات:
-   • يدوي  — أدخل يوزر واحد يُفحص على 33 منصة
-   • تلقائي — توليد يوزرات وفحص كل واحد على 33 منصة
+   • يدوي  — أدخل يوزر واحد يُفحص على 32 منصة
+   • تلقائي — توليد يوزرات وفحص كل واحد على 32 منصة
 4. اختر 98 لإعدادات Tor
 ```
 
@@ -155,7 +148,7 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 
 ---
 
-## ⌨️ إختصارات مهمة
+## ⌨️ اختصارات مهمة
 
 | الاختصار | الوظيفة |
 |----------|---------|
@@ -168,16 +161,12 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 
 ## 📂 حفظ النتائج
 
-**Termux:**
-```
-/sdcard/Download/available_[اسم_المنصة].txt
-/sdcard/Download/available_[اليوزر].txt
-```
+عند اختيار حفظ النتائج تظهر ثلاثة خيارات:
 
-**Kali Linux:**
 ```
-~/Downloads/available_[اسم_المنصة].txt
-~/Downloads/available_[اليوزر].txt
+1. 🏠 المجلد الرئيسي (~)
+2. 📥 مجلد التنزيلات (/sdcard/Download)
+3. ✍️  مسار مخصص تكتبه أنت
 ```
 
 ---
@@ -193,3 +182,16 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 
 </div>
 
+---
+
+- أداة فحص المتاحات المتطورة
+- البيئة: Termux (Android) / Kali Linux
+- الإصدار: v1.0
+
+---
+
+<div align="center">
+
+**⭐ إذا أعجبتك الأداة، لا تنسَ النجمة! ⭐**
+
+</div>
