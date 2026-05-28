@@ -12,7 +12,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
 
-![Platform](https://img.shields.io/badge/Platform-Linux-green?style=for-the-badge&logo=kalilinux-black)
+![Platform](https://img.shields.io/badge/Platform-Linux-green?style=for-the-badge&logo=kalilinux?color=wight)
 
 
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
