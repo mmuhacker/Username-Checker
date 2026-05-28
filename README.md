@@ -162,6 +162,7 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 ---
 <div align="center">
 ## ⌨️ اختصارات مهمة
+   
 </div>
 
 | الاختصار | الوظيفة |
@@ -174,6 +175,7 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 ---
 <div align="center">
 ## 📂 حفظ النتائج
+   
 </div>
 
 عند اختيار حفظ النتائج تظهر ثلاثة خيارات:
