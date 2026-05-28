@@ -197,6 +197,16 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 ```
 
 ---
+<div align="center">
+   
+## إنشاء إختصار التشغيل
+</div>
+
+**يتم عمله لمرة واحدة**
+```bash
+echo "alias us='python ~/mud.py'" >> ~/.bashrc && source ~/.bashrc
+```
+**للتشغيل أكتب us واضغط إنتر Enter**
 
 <div align="center">
 
