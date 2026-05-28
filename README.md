@@ -14,11 +14,12 @@
 ![License](https://img.shields.io/badge/License-MIT_License-red?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
-</div>
 
 ---
 
 **المحتويات:**
+</div>
+
 - [المميزات](#-المميزات)
 - [المنصات المدعومة](#-المنصات-المدعومة)
 - [طريقة التثبيت والتشغيل](#-طريقة-التثبيت-والتشغيل)
@@ -31,8 +32,10 @@
 - [المطور](#%E2%80%8D-المطور)
 
 ---
+<div align="center">
 
 ## ✨ المميزات
+</div>
 
 - 🌐 فحص **32 منصة** دفعة واحدة
 - 🤖 توليد يوزرات تلقائياً بثلاث طرق
@@ -44,8 +47,11 @@
 - 🔤 دعم كامل للغة العربية في Terminal
 
 ---
+<div align="center">
 
 ## 📱 المنصات المدعومة
+</div>
+
 
 | الفئة | المنصات |
 |-------|---------|
@@ -57,12 +63,13 @@
 | 🤖 توليد صور AI | Civitai, NightCafe, Leonardo AI, Tensor.Art, DreamStudio, Dreamlike.art, Dreamstime, Lexica.art, Arthub.ai, Krea.ai, Playground AI |
 
 ---
-
+<div align="center">
 ## 🚀 طريقة التثبيت والتشغيل
 
 ---
 
 ## 📱 Android — Termux
+</div>
 
 **الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)**
 ```bash
@@ -93,8 +100,10 @@ pkg install python tor curl fontconfig rust -y && pip install requests pysocks a
 ```
 
 ---
+<div align="center">
 
 ## 🐉 Kali Linux
+</div>
 
 **الخطوة 1 — تثبيت المتطلبات (مرة واحدة فقط)**
 ```bash
@@ -120,8 +129,10 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 ```
 
 ---
+<div align="center">
 
 ## 📖 طريقة الاستخدام
+</div>
 
 ```
 1. اختر المنصة برقمها من القائمة
@@ -135,8 +146,10 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 ```
 
 ---
+<div align="center">
 
 ## 🔒 إعدادات Tor
+</div>
 
 الأداة تكشف Tor تلقائياً عند التشغيل.
 لتفعيله يدوياً اختر **98** من القائمة.
@@ -147,8 +160,9 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 | 🔴 معطّل | الاتصال المباشر |
 
 ---
-
+<div align="center">
 ## ⌨️ اختصارات مهمة
+</div>
 
 | الاختصار | الوظيفة |
 |----------|---------|
@@ -158,8 +172,9 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 | `-1` | خروج |
 
 ---
-
+<div align="center">
 ## 📂 حفظ النتائج
+</div>
 
 عند اختيار حفظ النتائج تظهر ثلاثة خيارات:
 
