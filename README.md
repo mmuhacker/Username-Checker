@@ -9,9 +9,13 @@
 ---
 
 ![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Linux-green?style=for-the-badge&logo=android)
+
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Linux-green?style=for-the-badge&logo=android_kali)
+
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
+
 ![License](https://img.shields.io/badge/License-MIT_License-red?style=for-the-badge)
+
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 
@@ -205,7 +209,7 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 
 ---
 
-- أداة فحص المتاحات المتطورة
+- أداة فحص المتاحات المتطورة (32) منصة
 - البيئة: Termux (Android) / Kali Linux
 - الإصدار: v1.0
 
