@@ -57,7 +57,6 @@
 <div align="center">
 
 ## 📱 المنصات المدعومة
-</div>
 
 
 | الفئة | المنصات |
@@ -70,7 +69,6 @@
 | 🤖 توليد صور AI | Civitai, NightCafe, Leonardo AI, Tensor.Art, DreamStudio, Dreamlike.art, Dreamstime, Lexica.art, Arthub.ai, Krea.ai, Playground AI |
 
 ---
-<div align="center">
    
 ## 🚀 طريقة التثبيت والتشغيل
 
@@ -97,18 +95,33 @@ termux-reload-settings
 
 **الخطوة 3 — تنزيل الأداة وتشغيلها**
 ```bash
-curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/mud.py
-tor &
-sleep 5
-python ~/mud.py
+curl -o $PREFIX/bin/mud.py https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py
 ```
+**• تثبيت Tor**
+```bash
+tor -y
+```
+**إعطاء الأداةصلاحية التنفيذ**
+```bash
+chmod +x $PREFIX/bin/mud.py
+```
+**إنشاء إختصار uc:**
+```bash
+ln -sf $PREFIX/bin/mud.py $PREFIX/bin/uc
+```
+
 
 **أو كل شيء في أمر واحد (بعد تثبيت الخط)**
-```bash
-pkg install python tor curl fontconfig rust -y && pip install requests pysocks arabic-reshaper && pip install python-bidi==0.4.2 && curl -L "https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py" -o ~/mud.py && tor & sleep 5 && python ~/mud.py
-```
 
+```bash
+pkg install python tor curl fontconfig rust -y && pip install requests pysocks arabic-reshaper && pip install python-bidi==0.4.2 && curl -o $PREFIX/bin/mud_tc.py https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py && tor & sleep 5 && chmod +x $PREFIX/bin/mud.py && ln -sf $PREFIX/bin/mud.py $PREFIX/bin/uc
+```
+**أمر التشغيل**
+```
+uc
+```
 ---
+
 <div align="center">
 
 ## 🐉 Kali Linux
@@ -216,7 +229,6 @@ echo "alias us='python ~/mud.py'" >> ~/.bashrc && source ~/.bashrc
 **Muhannad Daher**
 
 [![GitHub](https://img.shields.io/badge/GitHub-mmuhacker-black?style=for-the-badge&logo=github)](https://github.com/mmuhacker)
-[![Contact Us](https://img.shields.io/badge/Contact_Us-black?style=for-the-badge&logo=gmail&logoColor=white)](mailto:madarik.ai.info@gmail.com)
 
 </div>
 
