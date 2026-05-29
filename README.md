@@ -114,7 +114,7 @@ ln -sf $PREFIX/bin/mud.py $PREFIX/bin/uc
 **أو كل شيء في أمر واحد (بعد تثبيت الخط)**
 
 ```bash
-pkg install python tor curl fontconfig rust -y && pip install requests pysocks arabic-reshaper && pip install python-bidi==0.4.2 && curl -o $PREFIX/bin/mud_tc.py https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py && tor & sleep 5 && chmod +x $PREFIX/bin/mud.py && ln -sf $PREFIX/bin/mud.py $PREFIX/bin/uc
+pkg install python tor curl fontconfig rust -y && pip install requests pysocks arabic-reshaper && pip install python-bidi==0.4.2 && curl -o $PREFIX/bin/mud.py https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py && tor & sleep 5 && chmod +x $PREFIX/bin/mud.py && ln -sf $PREFIX/bin/mud.py $PREFIX/bin/uc
 ```
 **● أمر التشغيل**
 ```
