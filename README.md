@@ -114,7 +114,8 @@ ln -sf $PREFIX/bin/mud.py $PREFIX/bin/uc
 **أو كل شيء في أمر واحد (بعد تثبيت الخط)**
 
 ```bash
-pkg install python tor curl fontconfig rust -y && pip install requests pysocks arabic-reshaper && pip install python-bidi==0.4.2 && curl -o $PREFIX/bin/mud.py https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py && tor & sleep 5 && chmod +x $PREFIX/bin/mud.py && ln -sf $PREFIX/bin/mud.py $PREFIX/bin/uc
+pkg update && pkg install python tor curl fontconfig rust -y && pip install --upgrade pip && pip install requests pysocks arabic-reshaper python-bidi==0.4.2 --break-system-packages && curl -o $PREFIX/bin/mud.py https://raw.githubusercontent.com/mmuhacker/Username-Checker/main/mud.py && chmod +x $PREFIX/bin/mud.py && ln -sf $PREFIX/bin/mud.py $PREFIX/bin/uc && echo "تم التثبيت بنجاح! يمكنك تشغيل الأداة بكتابة: uc"
+
 ```
 **● أمر التشغيل**
 ```
@@ -214,7 +215,8 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 
 **يتم عمله لمرة واحدة**
 ```bash
-echo "alias us='python ~/mud.py'" >> ~/.bashrc && source ~/.bashrc
+chmod +x $PREFIX/bin/mud_tc.py && ln -sf $PREFIX/bin/mud_tc.py $PREFIX/bin/tc
+
 ```
 **للتشغيل أكتب uc واضغط إنتر Enter**
 
