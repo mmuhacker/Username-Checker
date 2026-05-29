@@ -154,7 +154,6 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 <div align="center">
 
 ## 📖 طريقة الاستخدام
-</div>
 
 ```
 1. اختر المنصة برقمها من القائمة
@@ -168,7 +167,6 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 ```
 
 ---
-<div align="center">
 
 ## 🔒 إعدادات Tor
 </div>
@@ -176,17 +174,16 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 الأداة تكشف Tor تلقائياً عند التشغيل.
 لتفعيله يدوياً اختر **98** من القائمة.
 
+<div align="center">
+
 | الحالة | المعنى |
 |--------|--------|
 | 🟢 مفعّل | الطلبات مشفرة وتجاوز الحظر مفعّل |
 | 🔴 معطّل | الاتصال المباشر |
 
 ---
-<div align="center">
    
 ## ⌨️ اختصارات مهمة
-   
-</div>
 
 | الاختصار | الوظيفة |
 |----------|---------|
@@ -196,7 +193,6 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 | `-1` | خروج |
 
 ---
-<div align="center">
    
 ## 📂 حفظ النتائج
    
@@ -220,7 +216,7 @@ sudo apt install python3 tor curl fonts-noto-core -y && pip3 install requests py
 ```bash
 echo "alias us='python ~/mud.py'" >> ~/.bashrc && source ~/.bashrc
 ```
-**للتشغيل أكتب us واضغط إنتر Enter**
+**للتشغيل أكتب uc واضغط إنتر Enter**
 
 <div align="center">
 
